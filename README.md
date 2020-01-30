@@ -8,6 +8,16 @@ See link for setting up a new project for the first time:
 
 {% embed url="https://www.atlassian.com/git/tutorials/setting-up-a-repository" %}
 
+Rebase commands for MR
+```
+git checkout master
+git pull
+git checkout my-branch-name
+git rebase master
+// fix any conflicts
+git push --force
+```
+
 ### RSPEC Setup
 
 Create a project directory and also a spec directory in it.
