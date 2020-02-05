@@ -27,6 +27,13 @@ git (and access tokens)
 docker
 docker compose
 
+gcloud
+
+set up auth
+```
+gcloud container clusters get-credentials hydrogen-flex-ew1 --region europe-west1 --project jl-platform-k8s-flex
+```
+
 
 Chrome
 ```
